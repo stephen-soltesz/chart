@@ -1,7 +1,8 @@
 package imgg
 
 import (
-	"github.com/vdobler/chart"
+	//"github.com/vdobler/chart"
+	"github.com/stephen-soltesz/chart"
 	"image"
 	"image/color"
 	"image/png"
