@@ -214,7 +214,7 @@ func (sg *SvgGraphics) Symbol(x, y int, style chart.Style) {
 		if b >= 4 {
 			b /= 2
 		}
-		sg.svg.Circle(x, y, b, empty)
+		sg.svg.Circle(x, y, b, filled)
 	case '@':
 		sg.svg.Circle(x, y, a, filled)
 	case '=':
